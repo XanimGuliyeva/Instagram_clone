@@ -1,0 +1,59 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+
+header{
+    display: flex;
+    padding: 20px 20px;
+    justify-content: space-between;
+    border-bottom: 1px solid #C6C6C6;
+}
+.avatar{
+    width: 60px;
+    border-radius: 50%;
+    height: 60px;
+}
+.logo{
+    width: 160px;
+    height: 60px;
+}
+
+.up{ 
+    display: flex;
+    justify-content:flex-start;
+    align-items: center;
+    padding: 20px 20px;        
+}
+
+.up .up_text{
+    padding-left: 10px;
+}
+
+.up .up_text h2,p{
+    margin: 0px;
+}
+
+.middle{
+    width: 100%;
+    height: 500px;
+}
+.middle img{
+    width: 100%;
+    height: 100%;
+}
+.down{
+     padding: 20px 20px;  
+}
+
+.down .icons img{
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.postText p span{
+    font-weight: bold;
+}
